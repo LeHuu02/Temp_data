@@ -22,7 +22,7 @@ void tang(int *arr, int n){
             if(*(arr+i) > *(arr+j)){    //tuong tu nhu arr[i] > arr[j]
                 temp = *(arr+i);
                 *(arr+i) = *(arr+j);
-                *(arr+j) = *(arr+i);
+                *(arr+j) = temp;
                 // printf("\t%d\t", temp);
             }
         }
@@ -57,7 +57,7 @@ int main(){
     //         if(*(arr+i) < *(arr+j)){    //tuong tu nhu arr[i] > arr[j]
     //             temp = *(arr+i);
     //             *(arr+i) = *(arr+j);
-    //             *(arr+j) = *(arr+i);
+    //             *(arr+j) = temp;
     //             printf("\t%d\t", temp);
     //         }
     //     }
