@@ -1,0 +1,3 @@
+
+tong gia tri cua mang: 22
+so nguyen to la: 3	7	2	
