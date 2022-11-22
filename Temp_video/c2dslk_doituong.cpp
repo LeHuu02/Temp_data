@@ -141,7 +141,7 @@ int main(){
     nhap(l);
     xuat(l);
     // xoak(l);
-    xoa5(l);
+    // xoa5(l);
     // themsvk(l);
     printf("\nds sv sau khi xoa sv duoi 5 thu k: ");
     xuat(l);
